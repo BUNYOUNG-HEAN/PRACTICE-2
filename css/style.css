@@ -1,0 +1,69 @@
+.grid{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 70px 150px 150px 110px 40px;
+    grid-template-areas:
+     'grid-1 grid-1 grid-1 grid-1 '
+     'grid-2 grid-3 grid-3 grid-6 '
+     'grid-2 grid-4 grid-4 grid-6'
+     'grid-2 grid-5 grid-5 grid-6'
+     'grid-7 grid-7 grid-7 grid-7';
+    
+}
+.grid div{
+    font-size: 15px;
+    border: 1px solid;
+    border: none;
+    text-align: center;
+
+}
+.grid-1{
+    grid-area: grid-1;
+    background: #0AE075;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-2{
+    grid-area: grid-2;
+    background: #03AA59;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-3{
+    grid-area: grid-3;
+    background:#0AC869;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-4{
+    grid-area: grid-4;
+    background: #088D4B;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-5{
+    grid-area: grid-5;
+    background: #077C41;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-6{
+    grid-area: grid-6;
+    background: #066E3A;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.grid-7{
+    grid-area: grid-7;
+    background: #044B28;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
